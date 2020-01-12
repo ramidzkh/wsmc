@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "wsmc",
+  "version": "0.0.1",
+  "mixins": [
+    "mixins.wsmc.json"
+  ],
+  "name": "WebSocket Support",
+  "description": "Allows connecting to and hosting Minecraft servers which use WebSockets",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "ramidzkh",
+      "contact": {
+        "homepage": "https://github.com/ramidzkh"
+      }
+    }
+  ],
+  "contact": {
+    "sources": "https://github.com/ramidzkh/wsmc",
+    "issues": "https://github.com/ramidzkh/wsmc/issues"
+  }
+}

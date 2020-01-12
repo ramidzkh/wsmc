@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "me.ramidzkh.wsmc.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ConnectScreenMixin",
+    "ConnectScreenMixin$ConnectorThreadMixin",
+    "MultiplayerServerListPingerMixin",
+    "ServerAddressMixin"
+  ],
+  "server": [
+    "ServerNetworkIoMixin",
+    "ServerPropertiesHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
